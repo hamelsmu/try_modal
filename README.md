@@ -3,7 +3,7 @@ Let's try [modal](https://modal.com/home) for CI.
 ## Results
 
 ### Modal :fire: 7.25 Seconds :fire:
-### GitHub Actions: 🕐 3 Minutes 🕥
+### GitHub Actions: 🕐 [3 Minutes](https://github.com/fastai/nbdev/actions/workflows/test.yaml) (at best) 🕥
 
 Logs:
 
