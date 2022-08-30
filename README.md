@@ -2,7 +2,10 @@ Let's try [modal](https://modal.com/home) for CI.
 
 ## Results
 
-### :fire: 7.25 Seconds :fire:
+### Modal :fire: 7.25 Seconds :fire:
+### GitHub Actions: 🕐 3 Minutes 🕥
+
+Logs:
 
 ```
 (modal) √ try_modal % time python test_nbdev.py                                                                                                          (main)try_modal
