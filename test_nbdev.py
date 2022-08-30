@@ -11,11 +11,11 @@ image_with_model = (
 
 @stub.function(image=image_with_model,
                mounts=[modal.Mount(local_dir="./nbdev", remote_dir="~/")])
-def ci():
-    print('hello')
+def ci(): ...
 
 if __name__ == '__main__':
     with stub.run():
+        ci()
         os.chdir('nbdev')
-        subprocess.call(["pip", "install", ".[dev]"])
+        subprocess.call(["pip", "install", "-q", ".[dev]"])
         subprocess.call(["nbdev_test", "--do_print"])
