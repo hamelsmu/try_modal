@@ -1,8 +1,8 @@
 Let's try [modal](https://modal.com/home) for CI.
 
-### Results
+## Results
 
-## :fire: 7.25 Seconds :fire:
+### :fire: 7.25 Seconds :fire:
 
 ```
 (modal) √ try_modal % time python test_nbdev.py                                                                                                          (main)try_modal
